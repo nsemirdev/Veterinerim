@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		2DF9510C29981BF8005F07B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9510B29981BF8005F07B9 /* AppDelegate.swift */; };
 		2DF9510E29981BF8005F07B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9510D29981BF8005F07B9 /* SceneDelegate.swift */; };
-		2DF9511029981BF8005F07B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9510F29981BF8005F07B9 /* ViewController.swift */; };
-		2DF9511329981BF8005F07B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9511129981BF8005F07B9 /* Main.storyboard */; };
+		2DF9511029981BF8005F07B9 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9510F29981BF8005F07B9 /* OnboardingViewController.swift */; };
 		2DF9511529981BFA005F07B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9511429981BFA005F07B9 /* Assets.xcassets */; };
 		2DF9511829981BFA005F07B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9511629981BFA005F07B9 /* LaunchScreen.storyboard */; };
+		2DF9512229981F2B005F07B9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9512129981F2B005F07B9 /* CustomButton.swift */; };
+		2DF9512429982116005F07B9 /* loading-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9512329982116005F07B9 /* loading-animation.json */; };
+		2DF951272998213C005F07B9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF951262998213C005F07B9 /* SnapKit */; };
+		2DF9512A29982169005F07B9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF9512929982169005F07B9 /* Lottie */; };
+		2DF9512F299822BB005F07B9 /* onboarding-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9512C299822BB005F07B9 /* onboarding-1.json */; };
+		2DF95131299822BB005F07B9 /* onboarding-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9512E299822BB005F07B9 /* onboarding-2.json */; };
+		2DF9513529982906005F07B9 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9513429982906005F07B9 /* CustomLabel.swift */; };
+		2DF9513B299830EE005F07B9 /* onboarding-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9513A299830EE005F07B9 /* onboarding-3.json */; };
+		2DF9513E2998323D005F07B9 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9513D2998323D005F07B9 /* UIView+.swift */; };
+		2DF9514129983499005F07B9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514029983499005F07B9 /* Colors.swift */; };
+		2DF9514329983644005F07B9 /* OnboardingPresentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514229983644005F07B9 /* OnboardingPresentationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DF9510829981BF8005F07B9 /* Veterinerim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veterinerim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF9510B29981BF8005F07B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF9510D29981BF8005F07B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DF9510F29981BF8005F07B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DF9511229981BF8005F07B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DF9510F29981BF8005F07B9 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		2DF9511429981BFA005F07B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DF9511729981BFA005F07B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DF9511929981BFA005F07B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF9512129981F2B005F07B9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2DF9512329982116005F07B9 /* loading-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-animation.json"; sourceTree = "<group>"; };
+		2DF9512C299822BB005F07B9 /* onboarding-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "onboarding-1.json"; sourceTree = "<group>"; };
+		2DF9512E299822BB005F07B9 /* onboarding-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "onboarding-2.json"; sourceTree = "<group>"; };
+		2DF9513429982906005F07B9 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		2DF9513A299830EE005F07B9 /* onboarding-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "onboarding-3.json"; sourceTree = "<group>"; };
+		2DF9513D2998323D005F07B9 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2DF9514029983499005F07B9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2DF9514229983644005F07B9 /* OnboardingPresentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresentationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF951272998213C005F07B9 /* SnapKit in Frameworks */,
+				2DF9512A29982169005F07B9 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,79 @@
 		2DF9510A29981BF8005F07B9 /* Veterinerim */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9513F29983490005F07B9 /* Constants */,
+				2DF9513C29983232005F07B9 /* Extensions */,
+				2DF9511F29981D82005F07B9 /* App */,
+				2DF9512029981D8E005F07B9 /* Resources */,
+				2DF9512B299822AF005F07B9 /* Lotties */,
+				2DF95132299827CA005F07B9 /* Scenes */,
+				2DF9512129981F2B005F07B9 /* CustomButton.swift */,
+				2DF9513429982906005F07B9 /* CustomLabel.swift */,
+			);
+			path = Veterinerim;
+			sourceTree = "<group>";
+		};
+		2DF9511F29981D82005F07B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				2DF9510B29981BF8005F07B9 /* AppDelegate.swift */,
 				2DF9510D29981BF8005F07B9 /* SceneDelegate.swift */,
-				2DF9510F29981BF8005F07B9 /* ViewController.swift */,
-				2DF9511129981BF8005F07B9 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2DF9512029981D8E005F07B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2DF9511429981BFA005F07B9 /* Assets.xcassets */,
 				2DF9511629981BFA005F07B9 /* LaunchScreen.storyboard */,
 				2DF9511929981BFA005F07B9 /* Info.plist */,
 			);
-			path = Veterinerim;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DF9512B299822AF005F07B9 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9513A299830EE005F07B9 /* onboarding-3.json */,
+				2DF9512C299822BB005F07B9 /* onboarding-1.json */,
+				2DF9512E299822BB005F07B9 /* onboarding-2.json */,
+				2DF9512329982116005F07B9 /* loading-animation.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		2DF95132299827CA005F07B9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2DF95133299827D2005F07B9 /* Onboarding */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2DF95133299827D2005F07B9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9510F29981BF8005F07B9 /* OnboardingViewController.swift */,
+				2DF9514229983644005F07B9 /* OnboardingPresentationViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2DF9513C29983232005F07B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9513D2998323D005F07B9 /* UIView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DF9513F29983490005F07B9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9514029983499005F07B9 /* Colors.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,10 @@
 			dependencies = (
 			);
 			name = Veterinerim;
+			packageProductDependencies = (
+				2DF951262998213C005F07B9 /* SnapKit */,
+				2DF9512929982169005F07B9 /* Lottie */,
+			);
 			productName = Veterinerim;
 			productReference = 2DF9510829981BF8005F07B9 /* Veterinerim.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,10 @@
 				Base,
 			);
 			mainGroup = 2DF950FF29981BF8005F07B9;
+			packageReferences = (
+				2DF951252998213C005F07B9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2DF9512829982169005F07B9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2DF9510929981BF8005F07B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF9511829981BFA005F07B9 /* LaunchScreen.storyboard in Resources */,
+				2DF95131299822BB005F07B9 /* onboarding-2.json in Resources */,
 				2DF9511529981BFA005F07B9 /* Assets.xcassets in Resources */,
-				2DF9511329981BF8005F07B9 /* Main.storyboard in Resources */,
+				2DF9512F299822BB005F07B9 /* onboarding-1.json in Resources */,
+				2DF9513B299830EE005F07B9 /* onboarding-3.json in Resources */,
+				2DF9512429982116005F07B9 /* loading-animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF9511029981BF8005F07B9 /* ViewController.swift in Sources */,
+				2DF9513E2998323D005F07B9 /* UIView+.swift in Sources */,
+				2DF9512229981F2B005F07B9 /* CustomButton.swift in Sources */,
+				2DF9513529982906005F07B9 /* CustomLabel.swift in Sources */,
+				2DF9514329983644005F07B9 /* OnboardingPresentationViewModel.swift in Sources */,
+				2DF9514129983499005F07B9 /* Colors.swift in Sources */,
+				2DF9511029981BF8005F07B9 /* OnboardingViewController.swift in Sources */,
 				2DF9510C29981BF8005F07B9 /* AppDelegate.swift in Sources */,
 				2DF9510E29981BF8005F07B9 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DF9511129981BF8005F07B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DF9511229981BF8005F07B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DF9511629981BFA005F07B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +381,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Veterinerim/Info.plist;
+				INFOPLIST_FILE = Veterinerim/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +394,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.nsemir.Veterinerim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +412,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HG8VJQPKXZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Veterinerim/Info.plist;
+				INFOPLIST_FILE = Veterinerim/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +425,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.nsemir.Veterinerim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +456,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DF951252998213C005F07B9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2DF9512829982169005F07B9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DF951262998213C005F07B9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF951252998213C005F07B9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2DF9512929982169005F07B9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF9512829982169005F07B9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DF9510029981BF8005F07B9 /* Project object */;
 }
