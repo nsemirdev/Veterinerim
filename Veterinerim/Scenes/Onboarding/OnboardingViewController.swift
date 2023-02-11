@@ -74,9 +74,9 @@ final class OnboardingViewController: UIViewController {
   }
   
   private func navigateToMainScene() {
-    let mainTabBar = CustomTabBarController()
-    mainTabBar.modalPresentationStyle = .fullScreen
-    present(mainTabBar, animated: true)
+    let createPetVC = CreatePetViewController()
+    createPetVC.modalPresentationStyle = .fullScreen
+    present(createPetVC, animated: true)
   }
   
   private func setupLottie(with name: String) {

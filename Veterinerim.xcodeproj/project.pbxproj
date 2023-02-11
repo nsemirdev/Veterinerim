@@ -26,6 +26,9 @@
 		2DF9514B29983AF9005F07B9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514829983AF8005F07B9 /* CustomTabBar.swift */; };
 		2DF9514C29983AF9005F07B9 /* CBTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514929983AF8005F07B9 /* CBTabBarButton.swift */; };
 		2DF9514D29983AF9005F07B9 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */; };
+		2DF9515029983EAE005F07B9 /* CreatePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514F29983EAE005F07B9 /* CreatePetViewController.swift */; };
+		2DF9515429984400005F07B9 /* add-pet.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9515329984400005F07B9 /* add-pet.json */; };
+		2DF9515629984548005F07B9 /* paw.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9515529984548005F07B9 /* paw.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		2DF9514829983AF8005F07B9 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2DF9514929983AF8005F07B9 /* CBTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTabBarButton.swift; sourceTree = "<group>"; };
 		2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2DF9514F29983EAE005F07B9 /* CreatePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePetViewController.swift; sourceTree = "<group>"; };
+		2DF9515329984400005F07B9 /* add-pet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "add-pet.json"; sourceTree = "<group>"; };
+		2DF9515529984548005F07B9 /* paw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paw.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,8 @@
 		2DF9512B299822AF005F07B9 /* Lotties */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9515529984548005F07B9 /* paw.json */,
+				2DF9515329984400005F07B9 /* add-pet.json */,
 				2DF9513A299830EE005F07B9 /* onboarding-3.json */,
 				2DF9512C299822BB005F07B9 /* onboarding-1.json */,
 				2DF9512E299822BB005F07B9 /* onboarding-2.json */,
@@ -127,6 +135,7 @@
 		2DF95132299827CA005F07B9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9514E29983E8E005F07B9 /* CreatePet */,
 				2DF9514729983AE3005F07B9 /* TabBar */,
 				2DF95133299827D2005F07B9 /* Onboarding */,
 			);
@@ -166,6 +175,14 @@
 				2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2DF9514E29983E8E005F07B9 /* CreatePet */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9514F29983EAE005F07B9 /* CreatePetViewController.swift */,
+			);
+			path = CreatePet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF9515629984548005F07B9 /* paw.json in Resources */,
 				2DF9511829981BFA005F07B9 /* LaunchScreen.storyboard in Resources */,
+				2DF9515429984400005F07B9 /* add-pet.json in Resources */,
 				2DF95131299822BB005F07B9 /* onboarding-2.json in Resources */,
 				2DF9511529981BFA005F07B9 /* Assets.xcassets in Resources */,
 				2DF9512F299822BB005F07B9 /* onboarding-1.json in Resources */,
@@ -250,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF9515029983EAE005F07B9 /* CreatePetViewController.swift in Sources */,
 				2DF9513E2998323D005F07B9 /* UIView+.swift in Sources */,
 				2DF9512229981F2B005F07B9 /* CustomButton.swift in Sources */,
 				2DF9513529982906005F07B9 /* CustomLabel.swift in Sources */,

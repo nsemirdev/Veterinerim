@@ -20,9 +20,11 @@ final class CustomButton: UIButton {
     self.init(type: .system)
     setTitle(title, for: .normal)
     layer.cornerRadius = cornerRadius
-    titleLabel?.font = .init(name: "Avenir", size: 18)
+    titleLabel?.font = .init(name: "Avenir", size: 22)
+    titleLabel?.adjustsFontSizeToFitWidth = true
+    titleLabel?.minimumScaleFactor = 0.6
   }
-
+  
   @available(*, unavailable)
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
