@@ -23,6 +23,8 @@ final class OnboardingViewController: UIViewController {
       presentation.index == 2 ? actionButton.setTitle("Haydi Başlayalım!", for: .normal) : ()
     }
   }
+  
+  private let infoLabel = CustomLabel(text: "", alignment: .center)
 
   private let actionButton = CustomButton(title: "Devam Et", cornerRadius: 12)
 
@@ -50,8 +52,6 @@ final class OnboardingViewController: UIViewController {
     return pageControl
   }()
   
-  private let infoLabel = CustomLabel(text: "", alignment: .center)
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     presentation = viewModel.start()
@@ -74,7 +74,9 @@ final class OnboardingViewController: UIViewController {
   }
   
   private func navigateToMainScene() {
-    print("navigate")
+    let mainTabBar = CustomTabBarController()
+    mainTabBar.modalPresentationStyle = .fullScreen
+    present(mainTabBar, animated: true)
   }
   
   private func setupLottie(with name: String) {

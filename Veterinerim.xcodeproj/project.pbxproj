@@ -23,6 +23,9 @@
 		2DF9513E2998323D005F07B9 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9513D2998323D005F07B9 /* UIView+.swift */; };
 		2DF9514129983499005F07B9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514029983499005F07B9 /* Colors.swift */; };
 		2DF9514329983644005F07B9 /* OnboardingPresentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514229983644005F07B9 /* OnboardingPresentationViewModel.swift */; };
+		2DF9514B29983AF9005F07B9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514829983AF8005F07B9 /* CustomTabBar.swift */; };
+		2DF9514C29983AF9005F07B9 /* CBTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514929983AF8005F07B9 /* CBTabBarButton.swift */; };
+		2DF9514D29983AF9005F07B9 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		2DF9513D2998323D005F07B9 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		2DF9514029983499005F07B9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		2DF9514229983644005F07B9 /* OnboardingPresentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresentationViewModel.swift; sourceTree = "<group>"; };
+		2DF9514829983AF8005F07B9 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2DF9514929983AF8005F07B9 /* CBTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTabBarButton.swift; sourceTree = "<group>"; };
+		2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		2DF95132299827CA005F07B9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9514729983AE3005F07B9 /* TabBar */,
 				2DF95133299827D2005F07B9 /* Onboarding */,
 			);
 			path = Scenes;
@@ -149,6 +156,16 @@
 				2DF9514029983499005F07B9 /* Colors.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		2DF9514729983AE3005F07B9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9514929983AF8005F07B9 /* CBTabBarButton.swift */,
+				2DF9514829983AF8005F07B9 /* CustomTabBar.swift */,
+				2DF9514A29983AF8005F07B9 /* CustomTabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +254,9 @@
 				2DF9512229981F2B005F07B9 /* CustomButton.swift in Sources */,
 				2DF9513529982906005F07B9 /* CustomLabel.swift in Sources */,
 				2DF9514329983644005F07B9 /* OnboardingPresentationViewModel.swift in Sources */,
+				2DF9514C29983AF9005F07B9 /* CBTabBarButton.swift in Sources */,
+				2DF9514D29983AF9005F07B9 /* CustomTabBarController.swift in Sources */,
+				2DF9514B29983AF9005F07B9 /* CustomTabBar.swift in Sources */,
 				2DF9514129983499005F07B9 /* Colors.swift in Sources */,
 				2DF9511029981BF8005F07B9 /* OnboardingViewController.swift in Sources */,
 				2DF9510C29981BF8005F07B9 /* AppDelegate.swift in Sources */,
